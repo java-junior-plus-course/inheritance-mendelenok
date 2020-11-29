@@ -17,7 +17,7 @@ public class Physics extends SubjectLesson {
     @Override
     public void acquireBasicKnowledges() {
 
-        int iqLevel = getIqLevel();
+        int iqLevel = super.getIqLevel();
 
         if ((iqLevel > 50) & (iqLevel < 75)) {
 

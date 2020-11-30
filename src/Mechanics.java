@@ -14,6 +14,7 @@ public class Mechanics extends Physics {
 
     public void showAdditionalKnowledges() {
 
+
         for (String str : subject) {
 
             System.out.println("Acquired additional knowledges are: " + str + " ");

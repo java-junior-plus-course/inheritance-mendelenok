@@ -35,7 +35,8 @@ public class Physics extends SubjectLesson {
 
     public void showKnowledges() {
 
-        for (String str : subject) {
+
+        for (String str : getSubject()) {
 
             System.out.println("Acquired knowledges are: " + str + " ");
         }
